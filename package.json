@@ -1,0 +1,43 @@
+{
+  "name": "sails-hook-version",
+  "version": "0.0.1",
+  "description": "Sails hook which creates automatically versions of all your stored data.",
+  "author": {
+
+    "name": "Sebastian Galler",
+    "email": "sg@sg-medien.com"
+  },
+  "bugs": "https://github.com/sg-medien/sails-hook-version/issues",
+  "contributors": [],
+  "dependencies": {
+
+    "msgpack": "^1.0.2"
+  },
+  "devDependencies": {
+
+    "sails": "~0.12.0"
+  },
+  "engines": {
+
+    "node": ">= 4.0.0"
+  },
+  "homepage": "https://github.com/sg-medien/sails-hook-version",
+  "keywords": [
+    "version",
+    "lifecycle",
+    "orm",
+    "sails",
+    "waterline"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+
+    "type": "git",
+    "url": "git://github.com/sg-medien/sails-hook-version.git"
+  },
+  "sails": {
+    
+    "isHook": true
+  }
+}
