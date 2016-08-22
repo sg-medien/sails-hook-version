@@ -238,7 +238,7 @@ module.exports = function modelVersioning(sails) {
       __configKey__: {
 
         model: 'version',
-        connection: 'mysql',
+        connection: 'localDiskDb',
         migrate: 'alter',
         autoWatch: false,
         autoSubscribe: false,
