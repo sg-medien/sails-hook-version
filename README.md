@@ -1,3 +1,2 @@
-### 0.11.1
-
-* Initial version
+# sails-hook-version
+Sails hook which automatically creates versions of all your stored data.
