@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-version",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sails hook which creates automatically versions of all your stored data.",
   "author": {
 

@@ -1,2 +1,2 @@
 # sails-hook-version
-Sails hook which creates automatically versions of all your stored data.
+Sails hook which automatically creates versions of all your stored data.
