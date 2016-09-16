@@ -390,7 +390,7 @@ module.exports = function modelVersioning(sails) {
                         }
                         else {
 
-                          throw new Error('Could not find the original data to create version `'+version+'` of your '+modelName+' data with the primary key `'+pkValue+'`.');
+                          sails.log.warn('Could not find the original data to create version `'+version+'` of your '+modelName+' data with the primary key `'+pkValue+'`.');
                           return cb();
                         }
                       });
