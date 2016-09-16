@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-version",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Sails hook which creates automatically versions of all your stored data.",
   "author": {
 
@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/sg-medien/sails-hook-version",
   "keywords": [
+    "sails",
     "version",
     "lifecycle",
     "orm",
-    "sails",
     "waterline"
   ],
   "license": "MIT",
@@ -39,7 +39,7 @@
     "url": "git://github.com/sg-medien/sails-hook-version.git"
   },
   "sails": {
-    
+
     "isHook": true
   }
 }
