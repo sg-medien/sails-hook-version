@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-version",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sails hook which creates automatically versions of all your stored data.",
   "author": {
 
@@ -11,7 +11,9 @@
   "contributors": [],
   "dependencies": {
 
-    "msgpack": "^1.0.2"
+    "msgpack": "^1.0.2",
+    "sails-hook-orm": "~1.0.6",
+    "waterline": "~0.11.0"
   },
   "devDependencies": {
 
